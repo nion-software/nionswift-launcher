@@ -33,5 +33,5 @@ deploy:
   file_glob: true
   prerelease: true
   on:
-    repo: nion-software/nionui-launcher
+    repo: nion-software/nionswift-launcher
     tags: true

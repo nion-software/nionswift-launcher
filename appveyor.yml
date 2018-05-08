@@ -19,13 +19,13 @@ after_build:
 
 artifacts:
 - path: x64\Release\
-  name: NionUILauncher-Windows
+  name: NionSwiftLauncher-Windows
 
 deploy:
   provider: GitHub
   auth_token:
     secure: 2g4wtCmBBwxGrVylb2CV3woYIGgefAs6e9W+WmsrfS9v9U9vEFKEN2F5CddyAdI+
-  artifact: /NionUILauncher-Windows.zip/
+  artifact: /NionSwiftLauncher-Windows.zip/
   draft: false
   prerelease: false
   tag: $(appveyor_repo_tag_name)

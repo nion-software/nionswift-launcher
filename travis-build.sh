@@ -3,9 +3,9 @@ set -e # fail script if any command fails
 if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then
   xcodebuild -project NionUILauncher.xcodeproj -target "Nion UI Launcher" -configuration Release
   cd build/Release
-  zip -ry NionUILauncher-Mac.zip Nion\ UI\ Launcher.app
+  zip -ry NionSwiftLauncher-Mac.zip Nion\ Swift\ Launcher.app
   mkdir -p ../../release
-  mv NionUILauncher-Mac.zip ../../release
+  mv NionSwiftLauncher-Mac.zip ../../release
   cd ../..
 fi
 
@@ -25,8 +25,8 @@ if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
   bash linux_build.sh ~/miniconda
   mkdir release
   cd linux/x64
-  zip NionUILauncher-Linux.zip *
+  zip NionSwiftLauncher-Linux.zip *
   mkdir -p ../../release
-  cp NionUILauncher-Linux.zip ../../release
+  cp NionSwiftLauncher-Linux.zip ../../release
   cd ../..
 fi
