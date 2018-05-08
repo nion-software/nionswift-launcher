@@ -58,7 +58,7 @@
 		FD60C55416C5AD91009C6448 /* PythonSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PythonSupport.h; sourceTree = "<group>"; };
 		FD6CB7CA1663CB29000CF2F1 /* DocumentWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentWindow.h; sourceTree = "<group>"; };
 		FD6CB7CD1663CB31000CF2F1 /* DocumentWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DocumentWindow.cpp; sourceTree = SOURCE_ROOT; };
-		FD840853160D11F600370586 /* Nion Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nion Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD840853160D11F600370586 /* Nion Swift Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nion Swift Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD840857160D11F600370586 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FD84085A160D11F700370586 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		FD84085B160D11F700370586 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -104,7 +104,7 @@
 		FD840854160D11F600370586 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD840853160D11F600370586 /* Nion Swift.app */,
+				FD840853160D11F600370586 /* Nion Swift Launcher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 			);
 			name = "Nion UI Launcher";
 			productName = NionUILauncher;
-			productReference = FD840853160D11F600370586 /* Nion Swift.app */;
+			productReference = FD840853160D11F600370586 /* Nion Swift Launcher.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -317,7 +317,7 @@
 				GCC_PREFIX_HEADER = "NionUILauncher-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/NionUILauncher-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nion.swift.launcher;
-				PRODUCT_NAME = "Nion Swift";
+				PRODUCT_NAME = "Nion Swift Launcher";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -353,7 +353,7 @@
 				GCC_PREFIX_HEADER = "NionUILauncher-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/NionUILauncher-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nion.swift.launcher;
-				PRODUCT_NAME = "Nion Swift";
+				PRODUCT_NAME = "Nion Swift Launcher";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
